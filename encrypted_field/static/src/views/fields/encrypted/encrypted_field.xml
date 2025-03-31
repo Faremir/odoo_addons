@@ -1,0 +1,6 @@
+<templates xml:space="preserve">
+    <t t-name="web.EncryptedField">
+        <span t-if="props.readonly" t-esc="formattedValue" />
+        <input t-else="" t-att-id="props.id" type="password" class="o_input" />
+    </t>
+</templates>
